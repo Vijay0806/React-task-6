@@ -32,6 +32,7 @@ function Read() {
                     }, []);
 
   return (
+    <div className='read'>
     <Table singleLine>
      <Table.Header>
         <Table.Row>
@@ -63,6 +64,7 @@ function Read() {
         
      </Table.Body>
     </Table>
+    </div>
   )
 }
 
